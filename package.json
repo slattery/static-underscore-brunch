@@ -9,10 +9,10 @@
   "author": {
     "name": "Mike Slattery"
   },
-  "homepage": "https://github.com/slattery/underscore-brunch",
+  "homepage": "https://github.com/slattery/static-underscore-brunch",
   "repository": {
     "type": "git",
-    "url": "git@github.com:slattery/underscore-brunch.git"
+    "url": "git@github.com:slattery/static-underscore-brunch.git"
   },
   "main": "./lib/index",
   "scripts": {
@@ -37,5 +37,5 @@
   "dist": {
     "shasum": "ba3016e9df9859d15ab0cff5044b1bc833c083b2"
   },
-  "_from": "/Users/mike/local_stash/work/js/underscore-brunch"
+  "_from": "/Users/mike/local_stash/work/github/static-underscore-brunch"
 }
