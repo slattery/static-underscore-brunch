@@ -15,12 +15,16 @@ module.exports = class StaticUnderscoreCompliler
       varName           = varPath.basename(path, varExt)
       output            = @config.plugins?.static_underscore?.output ? "source"
       templateSettings  = @config.plugins?.underscore
-
-      uSource           = underscore.template(data, null, templateSettings).source
-      uCall             = "_.template(" + data + ")"
-
-      varResult = (if output is "call" then uCall else uSource)
-      content = varName + " = " + varResult + ";\n\n"
+      if output is "call"
+        callData        = data
+                          .toString()
+                          .replace(/\"/g, '\\\"')
+                          .split('\n')
+                          .join ' \\\n'      
+        varResult         = '_.template("' + callData + '")'
+      else
+        varResult         = underscore.template(data, null, templateSettings).source
+      content = "var " + varName + " = " + varResult + ";\n\n"
       return result = content
     catch err
       return error = err
