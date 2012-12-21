@@ -42,4 +42,4 @@ Output options are:
 
 * trojanowski for his amd-respecting [underscore-brunch](https://github.com/trojanowski/underscore-brunch) and for wiring in templateSettings 
 * ikosta for good docs, config and example: [static-jade-brunch](https://github.com/ilkosta/static-jade-brunch)
-* [brunch](https://github/brunch/) team for making the brunch ecosystem
+* [brunch](https://github.com/brunch/) team for making the brunch ecosystem
