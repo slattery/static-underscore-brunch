@@ -1,11 +1,11 @@
 {
-  "name": "underscore-brunch",
+  "name": "static-underscore-brunch",
   "version": "1.4.5",
   "keywords": [
     "brunch",
     "underscore"
   ],
-  "description": "Adds precompiled underscore templates support to brunch.",
+  "description": "Adds static underscore templates support to brunch without wrapping the output in modules of type commonjs/amd.",
   "author": {
     "name": "Mike Slattery"
   },
@@ -31,7 +31,7 @@
     "mocha": "1.3.2",
     "chai": "1.2.0"
   },
-  "readme": "## underscore-brunch\nAdds precompiled underscore template support to\n[brunch](http://brunch.io).\n\n## Usage\nAdd `\"underscore-brunch\": \"x.y.z\"` to `package.json` of your brunch app.\n\nPick a plugin version that corresponds to your minor (y) brunch version.\n\nIf you want to use git version of plugin, add\n`\"underscore-brunch\": \"git+ssh://git@github.com:slattery/underscore-brunch.git\"`.\n",
+  "readme": "## static-underscore-brunch\nAdds [underscore](http://underscorejs.org) template support to\n[brunch](http://brunch.io) without wrapping the output in modules of type commonjs/amd.\n\n## Usage\nAdd `\"underscore-brunch\": \"x.y.z\"` to `package.json` of your brunch app.\n\nPick a plugin version that corresponds to your minor (y) brunch version.\n\nIf you want to use git version of plugin, add\n`\"underscore-brunch\": \"git+ssh://git@github.com:slattery/underscore-brunch.git\"`.\n",
   "readmeFilename": "README.md",
   "_id": "underscore-brunch@1.4.5",
   "dist": {
