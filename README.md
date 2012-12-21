@@ -33,11 +33,13 @@ plugins:
  		output: 'source'
 ```
 Output options are:
+
 	* `source` (default) will be pre-compiled to the output file, using the filename (minus extension) as the var name.
 	* `call` will print underscore template calls to the output file:
 		`filenameAsVarName = _.template( <your markup here/> );`
 
 ### Cheers
+
 	* trojanowski for his amd-respecting [underscore-brunch](https://github.com/trojanowski/underscore-brunch) and for wiring in templateSettings 
 	* ikosta for good docs, config and example: [static-jade-brunch](https://github.com/ilkosta/static-jade-brunch)
 	* [brunch](https://github/brunch/) team for making the brunch ecosystem
